@@ -6,7 +6,7 @@ pipenv shell
 python init-db.py
 flask run
 ```
-Run frintend
+Run frontend
 ```sh
 cd web
 yarn install
