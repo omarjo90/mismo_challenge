@@ -14,5 +14,7 @@ yarn start
 ```
 
 Run the test cases
+```sh
 cd tests/
 pytest -v
+```
