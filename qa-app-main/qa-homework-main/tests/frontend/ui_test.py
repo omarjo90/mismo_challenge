@@ -10,7 +10,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 @pytest.fixture(scope="class")
 def driver_init(request):
-    driver = webdriver.Chrome(r'C:\Users\omar\Downloads\chromedriver_win32\chromedriver.exe')
+    driver = webdriver.Chrome(r'C:\Path\To\chromedriver.exe')
     request.cls.driver = driver
     driver.maximize_window()
     driver.get('http://localhost:3000/')
